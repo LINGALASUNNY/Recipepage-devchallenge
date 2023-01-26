@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    color:gray;
+   word-spacing:0.2em;
+}
+.content{
+    margin:auto;
+    width:50%;
+}
+h1{
+    font-size:48px;
+    font-family: 'Playfair Display', serif;
+    color:black !important;
+}
+#Dot{
+    font-size:20px;
+}
+.content > p{
+    width:592px;
+    height:51px;
+    color:#4F4F4F;
+    font-size:14px !important; 
+}
+img{
+    width:800px;
+    height:470px;
+    padding-top:30px;
+}
+.Time-section  {
+    float:right;
+    border:1px solid rgb(240, 239, 239);
+    box-shadow:2px 2px 2px rgb(240, 239, 239),-2px -2px 2px rgb(240, 239, 239);
+    padding:20px 5px 5px 20px;
+    margin-top:30px;
+    width:150px;
+    border-radius:5px;
+}
+i{
+    font-size:30px;
+}
+h4{
+    margin-top:-30px;
+    margin-left:40px;
+    font-size:10px;
+}
+h5{
+    margin-left:40px;
+    margin-top:-5px;
+    font-size:14px;
+}
+.Yeild,.fa-solid{
+    color:orange;
+}
+.fa-regular,#Time{
+   color:#333333;
+}
+input,span{
+    float:left;
+}
+h2{
+    font-size:24px;
+    font-family:'Playfair Display', serif;
+    font-style:italic;
+    color:black !important;
+}
+h3{
+    font-family:'Playfair display',serif;
+    color:gray;
+    font-weight:normal;
+    font-style:italic;
+    font-size:18px;
+}
+input.larger{
+    width:21px;
+    height:21px;  
+}
+p{
+    margin-top:27px;
+    margin-left:45px;
+    width:528px;
+    font-size:16px;
+    line-height:24px;
+}
+b{
+    font-weight:bold;
+    color:black;
+}
+button{
+    float:left;
+    width:36px;
+    height:36px;
+    background-color:orange;
+    border:none;
+    border-radius:7px;
+    margin-top:0;
+    font-size:18px;
+}
+#bt-2{
+    margin-top:10px;
+}
+.footer{
+   position:relative;
+   width:100%;
+  margin-top:100px;
+   left:0;
+   bottom:0;
+   text-align:center; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+@media(max-width:640px){
+    .content{
+        margin:15px 5px 10px 20px;
+       
+    }
+    #Dot{
+        margin-top:10px;
+    }
+    h1{
+        font-size:25px;
+        width:400px;
+    }
+    .content > p{
+        width:330px;
+        color:#4F4F4F;
+        font-size:14px !important; 
+    }
+    img{
+        width:370px;
+        height:260px;
+        margin-top:60px;
+    }
+    .Time-section  {
+        float:none;
+        border:none;
+        box-shadow:none;
+        padding:0;
+        margin-top:10px;
+        width:370px;
+        border-radius:5px;
+    }
+    i{
+        font-size:30px;
+    }
+    h5,h4{
+        font-size:10px;
+    }
+    .Time-content{
+        display:flex;
+        justify-content:space-around;
+    } 
+    p{
+        margin-top:27px;
+        margin-left:40px;
+        width:300px;
+        font-size:16px;
+        line-height:24px;
+    }
+}
